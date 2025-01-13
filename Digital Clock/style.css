@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:wght@300;400;500;700&display=swap');
+@font-face {
+    font-family:digital-7;
+    src: url(digital-7.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Popins',sans-serif;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color:aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    gap: 50px;
+
+
+}
+h2{
+    color:black;
+    font-size: 50px;
+    font-weight: 500px;
+
+}
+
+.frame{
+    width: 600px;
+    height: 300px;
+    background-color:black;
+    border: 40px solid pink;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    color:white;
+    font-size: 70px;
+    text-align: center;
+    line-height: 180px;
+
+}
+
+.clock {
+    font-family: 'digital-7';
+    color: yellow;
+    text-shadow: 
+        0 0 5px yellow, 
+        0 0 10px yellow, 
+        0 0 15px yellow, 
+        0 0 20px #ff0099;
+ 
+    text-align: center;
+}
