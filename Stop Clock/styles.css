@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:wght@300;400;500;700&display=swap');
+@font-face {
+    font-family:digital-7;
+    src: url(digital-7.ttf);
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('jonatan-pie-h8nxGssjQXs-unsplash.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+h1{
+    color: aliceblue;
+    left: 50%;
+    font-family: 'Poppins';
+
+}
+
+h2{
+    color:black;
+    left: 50%;
+}
+
+.counter{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    width: 250px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family:digital-7;
+    src: url(digital-7\ \(italic\).ttf);
+    font-size: 30px;
+    text-align: center;
+    
+
+
+
+}
+
+.box{
+    margin:0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 60px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+    cursor:pointer;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color:black; 
+    font-family:'Poppins';
+}
+
+
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+.start{
+    background-color:greenyellow;
+    width:100px; 
+    height: 80px;
+    border-radius: 10px;
+
+
+}
+
+.stop{
+    background-color:darkblue;
+    width:100px;
+    height: 80px;
+
+    border-radius: 10px; 
+ 
+}
+
+.reset{
+    background-color:palevioletred;
+    width:100px; 
+    border-radius: 10px; 
+    height: 80px;
+ 
+}
+
+
